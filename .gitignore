@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets
+data/raw/
+data/interim/
+data/external/
+data/processed/
+*.csv
+*.csv.gz
+*.parquet
+*.xlsx
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+*.pt
+*.pth
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Reports and generated outputs
+outputs/logs/
+outputs/reports/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
